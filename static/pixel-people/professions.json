@@ -1,0 +1,3493 @@
+[
+  {
+    "name": "Mayor",
+    "parentA": null,
+    "parentB": null,
+    "category": "Administration",
+    "buildings": [
+      "Town Hall"
+    ]
+  },
+  {
+    "name": "Mechanic",
+    "parentA": null,
+    "parentB": null,
+    "category": "Technical",
+    "buildings": [
+      "Arrival Center"
+    ]
+  },
+  {
+    "name": "Engineer",
+    "parentA": "Mayor",
+    "parentB": "Mechanic",
+    "category": "Technical",
+    "buildings": [
+      "Garage",
+      "Utopium Mine"
+    ]
+  },
+  {
+    "name": "Sheriff",
+    "parentA": "Mayor",
+    "parentB": "Mayor",
+    "category": "Law",
+    "buildings": [
+      "Sheriff's Office"
+    ]
+  },
+  {
+    "name": "Architect",
+    "parentA": "Mayor",
+    "parentB": "Engineer",
+    "category": "Creative",
+    "buildings": [
+      "Town Hall",
+      "Building Firm"
+    ]
+  },
+  {
+    "name": "Landscaper",
+    "parentA": "Assistant",
+    "parentB": "Architect",
+    "category": "Services",
+    "buildings": [
+      "Funeral Parlor",
+      "Nursery"
+    ]
+  },
+  {
+    "name": "Deputy",
+    "parentA": "Assistant",
+    "parentB": "Sheriff",
+    "category": "Law",
+    "buildings": [
+      "Sheriff's Office",
+      "Police Station"
+    ]
+  },
+  {
+    "name": "Gardener",
+    "parentA": "Landscaper",
+    "parentB": "Deputy",
+    "category": "Services",
+    "buildings": [
+      "Greenhouse",
+      "Nursery"
+    ]
+  },
+  {
+    "name": "Mechanical Engineer",
+    "parentA": "Mechanic",
+    "parentB": "Engineer",
+    "category": "Technical",
+    "buildings": [
+      "Garage",
+      "Construction Yard"
+    ]
+  },
+  {
+    "name": "Botanist",
+    "parentA": "Farmer",
+    "parentB": "Farmer",
+    "category": "Academic",
+    "buildings": [
+      "Greenhouse"
+    ]
+  },
+  {
+    "name": "Park Ranger",
+    "parentA": "Sheriff",
+    "parentB": "Landscaper",
+    "category": "Law",
+    "buildings": [
+      "Park",
+      "Campsite"
+    ]
+  },
+  {
+    "name": "Firefighter",
+    "parentA": "Mechanic",
+    "parentB": "Police Officer",
+    "category": "Law",
+    "buildings": [
+      "Fireworks Factory",
+      "Fire Station"
+    ]
+  },
+  {
+    "name": "Farmer",
+    "parentA": "Engineer",
+    "parentB": "Gardener",
+    "category": "Production",
+    "buildings": [
+      "Farm",
+      "Greenhouse",
+      "Farmer's Market"
+    ]
+  },
+  {
+    "name": "Doctor",
+    "parentA": "Engineer",
+    "parentB": "Nurse",
+    "category": "Medical",
+    "buildings": [
+      "Clinic",
+      "Gene Pool",
+      "Hospital"
+    ]
+  },
+  {
+    "name": "Nurse",
+    "parentA": "Homemaker",
+    "parentB": "Gardener",
+    "category": "Medical",
+    "buildings": [
+      "Pharmacy",
+      "Clinic",
+      "Hospital"
+    ]
+  },
+  {
+    "name": "Police Officer",
+    "parentA": "Sheriff",
+    "parentB": "Sheriff",
+    "category": "Law",
+    "buildings": [
+      "Bank",
+      "Courthouse",
+      "Police Station"
+    ]
+  },
+  {
+    "name": "Vet",
+    "parentA": "Park Ranger",
+    "parentB": "Doctor",
+    "category": "Medical",
+    "buildings": [
+      "Pet Store",
+      "Animal Shelter"
+    ]
+  },
+  {
+    "name": "Homemaker",
+    "parentA": "Farmer",
+    "parentB": "Gardener",
+    "category": "Production",
+    "buildings": [
+      "Farm",
+      "Farmer's Market"
+    ]
+  },
+  {
+    "name": "Zoologist",
+    "parentA": "Botanist",
+    "parentB": "Vet",
+    "category": "Research",
+    "buildings": [
+      "Aquarium",
+      "Research Lab",
+      "Animal Shelter"
+    ]
+  },
+  {
+    "name": "Plumber",
+    "parentA": "Engineer",
+    "parentB": "Assistant",
+    "category": "Services",
+    "buildings": [
+      "Fast Food",
+      "City Square"
+    ]
+  },
+  {
+    "name": "Fishmonger",
+    "parentA": "Farmer",
+    "parentB": "Plumber",
+    "category": "Production",
+    "buildings": [
+      "Lakehouse",
+      "Farmer's Market"
+    ]
+  },
+  {
+    "name": "Animal Trainer",
+    "parentA": "Sheriff",
+    "parentB": "Vet",
+    "category": "Services",
+    "buildings": [
+      "Pet Store",
+      "Animal Shelter"
+    ]
+  },
+  {
+    "name": "Milkmonger",
+    "parentA": "Farmer",
+    "parentB": "Animal Trainer",
+    "category": "Production",
+    "buildings": [
+      "Ice Cream Stand",
+      "Farmer's Market"
+    ]
+  },
+  {
+    "name": "Artist",
+    "parentA": "Architect",
+    "parentB": "Dreamer",
+    "category": "Creative",
+    "buildings": [
+      "Arcade",
+      "Gallery"
+    ]
+  },
+  {
+    "name": "Photographer",
+    "parentA": "Mechanic",
+    "parentB": "Artist",
+    "category": "Media",
+    "buildings": [
+      "Photo Shop",
+      "Gallery",
+      "Weddings R Us"
+    ]
+  },
+  {
+    "name": "Dentist",
+    "parentA": "Doctor",
+    "parentB": "Artist",
+    "category": "Medical",
+    "buildings": [
+      "Dentist's Office"
+    ]
+  },
+  {
+    "name": "Radiologist",
+    "parentA": "Doctor",
+    "parentB": "Photographer",
+    "category": "Medical",
+    "buildings": [
+      "Hospital",
+      "Dentist's Office"
+    ]
+  },
+  {
+    "name": "Cook",
+    "parentA": "Homemaker",
+    "parentB": "Fishmonger",
+    "category": "Hospitality",
+    "buildings": [
+      "Diner",
+      "Fast Food"
+    ]
+  },
+  {
+    "name": "Chef",
+    "parentA": "Artist",
+    "parentB": "Cook",
+    "category": "Hospitality",
+    "buildings": [
+      "Restaurant"
+    ]
+  },
+  {
+    "name": "Zookeeper",
+    "parentA": "Animal Trainer",
+    "parentB": "Park Ranger",
+    "category": "Services",
+    "buildings": [
+      "Park"
+    ]
+  },
+  {
+    "name": "Construction Worker",
+    "parentA": "Mechanical Engineer",
+    "parentB": "Deputy",
+    "category": "Production",
+    "buildings": [
+      "Construction Yard"
+    ]
+  },
+  {
+    "name": "Car Designer",
+    "parentA": "Mechanical Engineer",
+    "parentB": "Artist",
+    "category": "Creative",
+    "buildings": [
+      "Garage"
+    ]
+  },
+  {
+    "name": "Athlete",
+    "parentA": "Construction Worker",
+    "parentB": "Farmer",
+    "category": "Sports",
+    "buildings": [
+      "Stadium"
+    ]
+  },
+  {
+    "name": "Greengrocer",
+    "parentA": "Farmer",
+    "parentB": "Salesman",
+    "category": "Business",
+    "buildings": [
+      "Ninja HQ",
+      "Farmer's Market"
+    ]
+  },
+  {
+    "name": "Interior Designer",
+    "parentA": "Architect",
+    "parentB": "Artist",
+    "category": "Creative",
+    "buildings": [
+      "Gallery"
+    ]
+  },
+  {
+    "name": "Olympic Swimmer",
+    "parentA": "Athlete",
+    "parentB": "Fishmonger",
+    "category": "Sports",
+    "buildings": [
+      "Swimming Pool"
+    ]
+  },
+  {
+    "name": "Painter",
+    "parentA": "Artist",
+    "parentB": "Construction Worker",
+    "category": "Production",
+    "buildings": [
+      "Building Firm",
+      "Construction Yard"
+    ]
+  },
+  {
+    "name": "Hotel Manager",
+    "parentA": "Homemaker",
+    "parentB": "Salesman",
+    "category": "Hospitality",
+    "buildings": [
+      "Hotel Utopia",
+      "Spa"
+    ]
+  },
+  {
+    "name": "Valet",
+    "parentA": "Car Designer",
+    "parentB": "Hotel Manager",
+    "category": "Transport",
+    "buildings": [
+      "Hotel Utopia",
+      "Theatre"
+    ]
+  },
+  {
+    "name": "Pilot",
+    "parentA": "Valet",
+    "parentB": "Mechanic",
+    "category": "Transport",
+    "buildings": [
+      "Space Port"
+    ]
+  },
+  {
+    "name": "Flight Attendant",
+    "parentA": "Pilot",
+    "parentB": "Waiter",
+    "category": "Transport",
+    "buildings": [
+      "Space Port"
+    ]
+  },
+  {
+    "name": "Aerospace Engineer",
+    "parentA": "Mechanical Engineer",
+    "parentB": "Pilot",
+    "category": "Technical",
+    "buildings": [
+      "Space Admin",
+      "Observatory"
+    ]
+  },
+  {
+    "name": "Art Dealer",
+    "parentA": "Artist",
+    "parentB": "Salesman",
+    "category": "Business",
+    "buildings": [
+      "Gallery"
+    ]
+  },
+  {
+    "name": "Industrialist",
+    "parentA": "Salesman",
+    "parentB": "Salesman",
+    "category": "Business",
+    "buildings": [
+      "Enterprise"
+    ]
+  },
+  {
+    "name": "Jockey",
+    "parentA": "Animal Trainer",
+    "parentB": "Valet",
+    "category": "Sports",
+    "buildings": [
+      "Stable"
+    ]
+  },
+  {
+    "name": "Marine Biologist",
+    "parentA": "Vet",
+    "parentB": "Olympic Swimmer",
+    "category": "Research",
+    "buildings": [
+      "Aquarium"
+    ]
+  },
+  {
+    "name": "Real Estate Agent",
+    "parentA": "Architect",
+    "parentB": "Salesman",
+    "category": "Business",
+    "buildings": [
+      "Building Firm"
+    ]
+  },
+  {
+    "name": "Soldier",
+    "parentA": "Police Officer",
+    "parentB": "Explorer",
+    "category": "Law",
+    "buildings": [
+      "Bunker"
+    ]
+  },
+  {
+    "name": "Waiter",
+    "parentA": "Cook",
+    "parentB": "Assistant",
+    "category": "Hospitality",
+    "buildings": [
+      "Restaurant",
+      "Diner"
+    ]
+  },
+  {
+    "name": "Philosopher",
+    "parentA": "Dreamer",
+    "parentB": "Dreamer",
+    "category": "Academic",
+    "buildings": [
+      "University"
+    ]
+  },
+  {
+    "name": "Detective",
+    "parentA": "Police Officer",
+    "parentB": "Philosopher",
+    "category": "Law",
+    "buildings": [
+      "Law Firm",
+      "Police Station",
+      "Forensic Lab"
+    ]
+  },
+  {
+    "name": "Lawyer",
+    "parentA": "Sheriff",
+    "parentB": "Salesman",
+    "category": "Law",
+    "buildings": [
+      "Courthouse",
+      "Law Firm",
+      "Publishing House"
+    ]
+  },
+  {
+    "name": "Marine",
+    "parentA": "Soldier",
+    "parentB": "Olympic Swimmer",
+    "category": "Law",
+    "buildings": [
+      "Bunker"
+    ]
+  },
+  {
+    "name": "Judge",
+    "parentA": "Lawyer",
+    "parentB": "Sheriff",
+    "category": "Law",
+    "buildings": [
+      "Courthouse"
+    ]
+  },
+  {
+    "name": "Secretary",
+    "parentA": "Mayor",
+    "parentB": "Deputy",
+    "category": "Administration",
+    "buildings": [
+      "Bank",
+      "Enterprise",
+      "Business Center"
+    ]
+  },
+  {
+    "name": "Writer",
+    "parentA": "Secretary",
+    "parentB": "Dreamer",
+    "category": "Media",
+    "buildings": [
+      "Cafe",
+      "TV Station",
+      "Publishing House"
+    ]
+  },
+  {
+    "name": "Poet",
+    "parentA": "Writer",
+    "parentB": "Dreamer",
+    "category": "Creative",
+    "buildings": [
+      "Gallery",
+      "Cafe",
+      "Library"
+    ]
+  },
+  {
+    "name": "Paramedic",
+    "parentA": "Police Officer",
+    "parentB": "Doctor",
+    "category": "Medical",
+    "buildings": [
+      "Fire Station"
+    ]
+  },
+  {
+    "name": "Lifeguard",
+    "parentA": "Olympic Swimmer",
+    "parentB": "Paramedic",
+    "category": "Law",
+    "buildings": [
+      "Swimming Pool",
+      "Beach House"
+    ]
+  },
+  {
+    "name": "Model",
+    "parentA": "Photographer",
+    "parentB": "Lifeguard",
+    "category": "Performers",
+    "buildings": [
+      "Photo Shop",
+      "Fashion Studio",
+      "Disco"
+    ]
+  },
+  {
+    "name": "Swimsuit Model",
+    "parentA": "Model",
+    "parentB": "Olympic Swimmer",
+    "category": "Sports",
+    "buildings": [
+      "Swimming Pool",
+      "Fashion Studio",
+      "Beach House"
+    ]
+  },
+  {
+    "name": "Reporter",
+    "parentA": "Detective",
+    "parentB": "Writer",
+    "category": "Media",
+    "buildings": [
+      "TV Station",
+      "News Agency"
+    ]
+  },
+  {
+    "name": "Ballet Dancer",
+    "parentA": "Athlete",
+    "parentB": "Artist",
+    "category": "Performers",
+    "buildings": [
+      "Dance Studio"
+    ]
+  },
+  {
+    "name": "Martial Artist",
+    "parentA": "Ballet Dancer",
+    "parentB": "Soldier",
+    "category": "Sports",
+    "buildings": [
+      "Dojo"
+    ]
+  },
+  {
+    "name": "Sushi Chef",
+    "parentA": "Chef",
+    "parentB": "Martial Artist",
+    "category": "Hospitality",
+    "buildings": [
+      "Sushi Bar"
+    ]
+  },
+  {
+    "name": "Food Critic",
+    "parentA": "Cook",
+    "parentB": "Reporter",
+    "category": "Media",
+    "buildings": [
+      "News Agency"
+    ]
+  },
+  {
+    "name": "General",
+    "parentA": "Marine",
+    "parentB": "Soldier",
+    "category": "Law",
+    "buildings": [
+      "Bunker"
+    ]
+  },
+  {
+    "name": "Actor",
+    "parentA": "Director",
+    "parentB": "Model",
+    "category": "Performers",
+    "buildings": [
+      "Theatre",
+      "Film Studio"
+    ]
+  },
+  {
+    "name": "Flight Controller",
+    "parentA": "Architect",
+    "parentB": "Pilot",
+    "category": "Transport",
+    "buildings": [
+      "Space Port"
+    ]
+  },
+  {
+    "name": "Calligrapher",
+    "parentA": "Writer",
+    "parentB": "Artist",
+    "category": "Creative",
+    "buildings": [
+      "Gallery"
+    ]
+  },
+  {
+    "name": "Cameraman",
+    "parentA": "Photographer",
+    "parentB": "Mechanic",
+    "category": "Media",
+    "buildings": [
+      "Photo Shop",
+      "TV Station",
+      "Broadcast Station"
+    ]
+  },
+  {
+    "name": "Cheerleader",
+    "parentA": "Athlete",
+    "parentB": "Ballet Dancer",
+    "category": "Sports",
+    "buildings": [
+      "Stadium",
+      "Dance Studio"
+    ]
+  },
+  {
+    "name": "Coach",
+    "parentA": "Athlete",
+    "parentB": "Athlete",
+    "category": "Sports",
+    "buildings": [
+      "Stadium"
+    ]
+  },
+  {
+    "name": "Courier",
+    "parentA": "Mailman",
+    "parentB": "Salesman",
+    "category": "Transport",
+    "buildings": [
+      "Post Office"
+    ]
+  },
+  {
+    "name": "Director",
+    "parentA": "Cameraman",
+    "parentB": "Cameraman",
+    "category": "Media",
+    "buildings": [
+      "Theatre",
+      "Film Studio"
+    ]
+  },
+  {
+    "name": "Florist",
+    "parentA": "Farmer",
+    "parentB": "Botanist",
+    "category": "Business",
+    "buildings": [
+      "Flower Shop",
+      "Nursery",
+      "Farmer's Market"
+    ]
+  },
+  {
+    "name": "Grave Digger",
+    "parentA": "Farmer",
+    "parentB": "Soldier",
+    "category": "Services",
+    "buildings": [
+      "Funeral Parlor"
+    ]
+  },
+  {
+    "name": "Mailman",
+    "parentA": "Reporter",
+    "parentB": "Valet",
+    "category": "Administration",
+    "buildings": [
+      "Post Office"
+    ]
+  },
+  {
+    "name": "Miner",
+    "parentA": "Grave Digger",
+    "parentB": "Explorer",
+    "category": "Production",
+    "buildings": [
+      "Utopium Mine"
+    ]
+  },
+  {
+    "name": "Cattle Rustler",
+    "parentA": "Jockey",
+    "parentB": "Animal Trainer",
+    "category": "Production",
+    "buildings": [
+      "Stable",
+      "Stadium"
+    ]
+  },
+  {
+    "name": "Postmaster General",
+    "parentA": "Mailman",
+    "parentB": "General",
+    "category": "Administration",
+    "buildings": [
+      "Post Office"
+    ]
+  },
+  {
+    "name": "Stunt Double",
+    "parentA": "Actor",
+    "parentB": "Martial Artist",
+    "category": "Performers",
+    "buildings": [
+      "Film Studio"
+    ]
+  },
+  {
+    "name": "Programmer",
+    "parentA": "Mathematician",
+    "parentB": "Engineer",
+    "category": "Technical",
+    "buildings": [
+      "Tech Support",
+      "Arcade"
+    ]
+  },
+  {
+    "name": "Game Designer",
+    "parentA": "Programmer",
+    "parentB": "Artist",
+    "category": "Creative",
+    "buildings": [
+      "Arcade"
+    ]
+  },
+  {
+    "name": "Mathematician",
+    "parentA": "Philosopher",
+    "parentB": "Scientist",
+    "category": "Academic",
+    "buildings": [
+      "University",
+      "Business Center",
+      "Tech Support"
+    ]
+  },
+  {
+    "name": "Scientist",
+    "parentA": "Philosopher",
+    "parentB": "Engineer",
+    "category": "Research",
+    "buildings": [
+      "Gene Pool",
+      "Research Lab"
+    ]
+  },
+  {
+    "name": "Physicist",
+    "parentA": "Scientist",
+    "parentB": "Mathematician",
+    "category": "Academic",
+    "buildings": [
+      "University"
+    ]
+  },
+  {
+    "name": "Astronomer",
+    "parentA": "Physicist",
+    "parentB": "Dreamer",
+    "category": "Academic",
+    "buildings": [
+      "Space Admin",
+      "Observatory"
+    ]
+  },
+  {
+    "name": "Astronaut",
+    "parentA": "Pilot",
+    "parentB": "Astronomer",
+    "category": "Explorers",
+    "buildings": [
+      "Space Admin"
+    ]
+  },
+  {
+    "name": "Geneticist",
+    "parentA": "Scientist",
+    "parentB": "Doctor",
+    "category": "Research",
+    "buildings": [
+      "Gene Pool"
+    ]
+  },
+  {
+    "name": "Cryptozoologist",
+    "parentA": "Zookeeper",
+    "parentB": "Detective",
+    "category": "Research",
+    "buildings": [
+      "Research Lab",
+      "Tavern"
+    ]
+  },
+  {
+    "name": "Accountant",
+    "parentA": "Secretary",
+    "parentB": "Mathematician",
+    "category": "Business",
+    "buildings": [
+      "Pharmacy",
+      "Bank",
+      "Business Center"
+    ]
+  },
+  {
+    "name": "Editor",
+    "parentA": "Writer",
+    "parentB": "Writer",
+    "category": "Creative",
+    "buildings": [
+      "Library",
+      "Publishing House"
+    ]
+  },
+  {
+    "name": "Librarian",
+    "parentA": "Writer",
+    "parentB": "Poet",
+    "category": "Administration",
+    "buildings": [
+      "Library"
+    ]
+  },
+  {
+    "name": "Historian",
+    "parentA": "Philosopher",
+    "parentB": "Librarian",
+    "category": "Academic",
+    "buildings": [
+      "Museum"
+    ]
+  },
+  {
+    "name": "Archaeologist",
+    "parentA": "Historian",
+    "parentB": "Explorer",
+    "category": "Academic",
+    "buildings": [
+      "Museum"
+    ]
+  },
+  {
+    "name": "Super Hero",
+    "parentA": "Soldier",
+    "parentB": "Geneticist",
+    "category": "Explorers",
+    "buildings": [
+      "Hero Mansion"
+    ]
+  },
+  {
+    "name": "Atomic Hero",
+    "parentA": "Radiologist",
+    "parentB": "General",
+    "category": "Explorers",
+    "buildings": [
+      "Hero Mansion"
+    ]
+  },
+  {
+    "name": "Ancient Hero",
+    "parentA": "Preacher",
+    "parentB": "Weather Reporter",
+    "category": "Explorers",
+    "buildings": [
+      "Hero Mansion",
+      "Astro Church"
+    ]
+  },
+  {
+    "name": "Choreographer",
+    "parentA": "Ballet Dancer",
+    "parentB": "Director",
+    "category": "Creative",
+    "buildings": [
+      "Dance Studio"
+    ]
+  },
+  {
+    "name": "Pharmacist",
+    "parentA": "Doctor",
+    "parentB": "Salesman",
+    "category": "Medical",
+    "buildings": [
+      "Pharmacy"
+    ]
+  },
+  {
+    "name": "CSI",
+    "parentA": "Detective",
+    "parentB": "Photographer",
+    "category": "Law",
+    "buildings": [
+      "Forensic Lab"
+    ]
+  },
+  {
+    "name": "Forensic Scientist",
+    "parentA": "Detective",
+    "parentB": "Scientist",
+    "category": "Law",
+    "buildings": [
+      "Forensic Lab"
+    ]
+  },
+  {
+    "name": "Physiotherapist",
+    "parentA": "Athlete",
+    "parentB": "Doctor",
+    "category": "Medical",
+    "buildings": [
+      "Spa",
+      "Arena",
+      "Clinic"
+    ]
+  },
+  {
+    "name": "Coroner",
+    "parentA": "Grave Digger",
+    "parentB": "Doctor",
+    "category": "Services",
+    "buildings": [
+      "Funeral Parlor",
+      "Forensic Lab"
+    ]
+  },
+  {
+    "name": "Anti Hero",
+    "parentA": "Grave Digger",
+    "parentB": "Super Hero",
+    "category": "Explorers",
+    "buildings": [
+      "Hero Mansion"
+    ]
+  },
+  {
+    "name": "Wrestler",
+    "parentA": "Athlete",
+    "parentB": "Actor",
+    "category": "Sports",
+    "buildings": [
+      "Arena"
+    ]
+  },
+  {
+    "name": "Clown",
+    "parentA": "Comic",
+    "parentB": "Painter",
+    "category": "Performers",
+    "buildings": [
+      "Circus",
+      "Carnival"
+    ]
+  },
+  {
+    "name": "Paleontologist",
+    "parentA": "Archaeologist",
+    "parentB": "Cryptozoologist",
+    "category": "Academic",
+    "buildings": [
+      "Museum"
+    ]
+  },
+  {
+    "name": "Geologist",
+    "parentA": "Miner",
+    "parentB": "Scientist",
+    "category": "Academic",
+    "buildings": [
+      "Utopium Mine",
+      "Observatory"
+    ]
+  },
+  {
+    "name": "Break Dancer",
+    "parentA": "Ballet Dancer",
+    "parentB": "Rapper",
+    "category": "Performers",
+    "buildings": [
+      "Dance Studio",
+      "Disco"
+    ]
+  },
+  {
+    "name": "Captain",
+    "parentA": "Fishmonger",
+    "parentB": "Sheriff",
+    "category": "Explorers",
+    "buildings": [
+      "Lakehouse",
+      "Marina"
+    ]
+  },
+  {
+    "name": "Weather Reporter",
+    "parentA": "Reporter",
+    "parentB": "Geologist",
+    "category": "Media",
+    "buildings": [
+      "News Agency"
+    ]
+  },
+  {
+    "name": "Comic",
+    "parentA": "Actor",
+    "parentB": "Poet",
+    "category": "Performers",
+    "buildings": [
+      "Bar"
+    ]
+  },
+  {
+    "name": "Disc Jockey",
+    "parentA": "Jockey",
+    "parentB": "Choreographer",
+    "category": "Music",
+    "buildings": [
+      "Radio Station",
+      "Dance Studio"
+    ]
+  },
+  {
+    "name": "First Mate",
+    "parentA": "Captain",
+    "parentB": "Deputy",
+    "category": "Explorers",
+    "buildings": [
+      "Lakehouse"
+    ]
+  },
+  {
+    "name": "Buccaneer",
+    "parentA": "Captain",
+    "parentB": "Explorer",
+    "category": "Explorers",
+    "buildings": [
+      "Tavern",
+      "Cave"
+    ]
+  },
+  {
+    "name": "Preacher",
+    "parentA": "Philosopher",
+    "parentB": "Dreamer",
+    "category": "Administration",
+    "buildings": [
+      "Astro Church"
+    ]
+  },
+  {
+    "name": "Rapper",
+    "parentA": "Poet",
+    "parentB": "Disc Jockey",
+    "category": "Performers",
+    "buildings": [
+      "Dance Studio",
+      "Disco"
+    ]
+  },
+  {
+    "name": "Receptionist",
+    "parentA": "Secretary",
+    "parentB": "Model",
+    "category": "Business",
+    "buildings": [
+      "Enterprise",
+      "Dentist's Office",
+      "Hotel Utopia"
+    ]
+  },
+  {
+    "name": "Songwriter",
+    "parentA": "Poet",
+    "parentB": "Poet",
+    "category": "Music",
+    "buildings": [
+      "Radio Station",
+      "Restaurant"
+    ]
+  },
+  {
+    "name": "Taxidermist",
+    "parentA": "Vet",
+    "parentB": "Coroner",
+    "category": "Services",
+    "buildings": [
+      "Park"
+    ]
+  },
+  {
+    "name": "Vocalist",
+    "parentA": "Songwriter",
+    "parentB": "Actor",
+    "category": "Music",
+    "buildings": [
+      "Radio Station",
+      "Bar"
+    ]
+  },
+  {
+    "name": "Assistant",
+    "parentA": "Mechanic",
+    "parentB": "Mechanic",
+    "category": "Administration",
+    "buildings": [
+      "Town Hall",
+      "Law Firm"
+    ]
+  },
+  {
+    "name": "Footballer",
+    "parentA": "Athlete",
+    "parentB": "Cheerleader",
+    "category": "Sports",
+    "buildings": [
+      "Stadium"
+    ]
+  },
+  {
+    "name": "Shepherd",
+    "parentA": "Animal Trainer",
+    "parentB": "Milkmonger",
+    "category": "Production",
+    "buildings": [
+      "Stable"
+    ]
+  },
+  {
+    "name": "Winemaker",
+    "parentA": "Farmer",
+    "parentB": "Dreamer",
+    "category": "Production",
+    "buildings": [
+      "Farm"
+    ]
+  },
+  {
+    "name": "Baker",
+    "parentA": "Cook",
+    "parentB": "Homemaker",
+    "category": "Production",
+    "buildings": [
+      "Cafe",
+      "City Square"
+    ]
+  },
+  {
+    "name": "Carpenter",
+    "parentA": "Shepherd",
+    "parentB": "Homemaker",
+    "category": "Production",
+    "buildings": [
+      "Lumber Mill",
+      "City Square"
+    ]
+  },
+  {
+    "name": "Janitor",
+    "parentA": "Plumber",
+    "parentB": "Construction Worker",
+    "category": "Services",
+    "buildings": [
+      "City Square",
+      "Diner",
+      "Fast Food"
+    ]
+  },
+  {
+    "name": "Ninja",
+    "parentA": "Martial Artist",
+    "parentB": "Soldier",
+    "category": "Sports",
+    "buildings": [
+      "Ninja HQ",
+      "Dojo"
+    ]
+  },
+  {
+    "name": "Referee",
+    "parentA": "Coach",
+    "parentB": "Judge",
+    "category": "Sports",
+    "buildings": [
+      "Stadium",
+      "Arena"
+    ]
+  },
+  {
+    "name": "Secret Agent",
+    "parentA": "Ninja",
+    "parentB": "Detective",
+    "category": "Law",
+    "buildings": [
+      "Hero Mansion",
+      "Ninja HQ"
+    ]
+  },
+  {
+    "name": "Sensei",
+    "parentA": "Martial Artist",
+    "parentB": "Philosopher",
+    "category": "Sports",
+    "buildings": [
+      "Dojo"
+    ]
+  },
+  {
+    "name": "Deep Sea Diver",
+    "parentA": "Marine Biologist",
+    "parentB": "Explorer",
+    "category": "Explorers",
+    "buildings": [
+      "Tavern",
+      "Aquarium"
+    ]
+  },
+  {
+    "name": "Watchmaker",
+    "parentA": "Historian",
+    "parentB": "Mechanic",
+    "category": "Technical",
+    "buildings": [
+      "Doomsday Clock",
+      "City Square"
+    ]
+  },
+  {
+    "name": "Time Traveller",
+    "parentA": "Watchmaker",
+    "parentB": "Explorer",
+    "category": "Explorers",
+    "buildings": [
+      "Doomsday Clock",
+      "Tavern"
+    ]
+  },
+  {
+    "name": "Tailor",
+    "parentA": "Model",
+    "parentB": "Artist",
+    "category": "Services",
+    "buildings": [
+      "City Square",
+      "Fashion Studio",
+      "Weddings R Us"
+    ]
+  },
+  {
+    "name": "Ringmaster",
+    "parentA": "Animal Trainer",
+    "parentB": "Clown",
+    "category": "Performers",
+    "buildings": [
+      "Circus"
+    ]
+  },
+  {
+    "name": "Oracle",
+    "parentA": "Philosopher",
+    "parentB": "Preacher",
+    "category": "Curious",
+    "buildings": [
+      "Astro Church",
+      "Fortune Teller"
+    ]
+  },
+  {
+    "name": "Matador",
+    "parentA": "Animal Trainer",
+    "parentB": "Wrestler",
+    "category": "Performers",
+    "buildings": [
+      "Circus"
+    ]
+  },
+  {
+    "name": "Magician",
+    "parentA": "Accountant",
+    "parentB": "Accountant",
+    "category": "Performers",
+    "buildings": [
+      "School of Magic",
+      "Circus"
+    ]
+  },
+  {
+    "name": "Bartender",
+    "parentA": "Winemaker",
+    "parentB": "Salesman",
+    "category": "Hospitality",
+    "buildings": [
+      "Tavern",
+      "Bar"
+    ]
+  },
+  {
+    "name": "Barista",
+    "parentA": "Bartender",
+    "parentB": "Waiter",
+    "category": "Hospitality",
+    "buildings": [
+      "Cafe"
+    ]
+  },
+  {
+    "name": "Wizard",
+    "parentA": "Magician",
+    "parentB": "Scientist",
+    "category": "Curious",
+    "buildings": [
+      "School of Magic"
+    ]
+  },
+  {
+    "name": "Apprentice",
+    "parentA": "Wizard",
+    "parentB": "Assistant",
+    "category": "Curious",
+    "buildings": [
+      "School of Magic"
+    ]
+  },
+  {
+    "name": "System Admin",
+    "parentA": "Programmer",
+    "parentB": "Programmer",
+    "category": "Technical",
+    "buildings": [
+      "Tech Support"
+    ]
+  },
+  {
+    "name": "Genie",
+    "parentA": "Magician",
+    "parentB": "Magician",
+    "category": "Explorers",
+    "buildings": [
+      "Fortune Teller",
+      "Circus",
+      "Tavern"
+    ]
+  },
+  {
+    "name": "Wedding Planner",
+    "parentA": "Winemaker",
+    "parentB": "Baker",
+    "category": "Services",
+    "buildings": [
+      "Dating Agency",
+      "Weddings R Us"
+    ]
+  },
+  {
+    "name": "Centaur",
+    "parentA": "Mutant",
+    "parentB": "Jockey",
+    "category": "Curious",
+    "buildings": [
+      "Altar"
+    ]
+  },
+  {
+    "name": "Wedding Singer",
+    "parentA": "Romantic",
+    "parentB": "Vocalist",
+    "category": "Performers",
+    "buildings": [
+      "Weddings R Us"
+    ]
+  },
+  {
+    "name": "Jeweller",
+    "parentA": "Romantic",
+    "parentB": "Miner",
+    "category": "Creative",
+    "buildings": [
+      "Weddings R Us"
+    ]
+  },
+  {
+    "name": "Chocolatier",
+    "parentA": "Romantic",
+    "parentB": "Baker",
+    "category": "Creative",
+    "buildings": [
+      "Flower Shop"
+    ]
+  },
+  {
+    "name": "Matchmaker",
+    "parentA": "Romantic",
+    "parentB": "Engineer",
+    "category": "Creative",
+    "buildings": [
+      "Dating Agency"
+    ]
+  },
+  {
+    "name": "Dating Advisor",
+    "parentA": "Jeweller",
+    "parentB": "Chocolatier",
+    "category": "Creative",
+    "buildings": [
+      "Dating Agency"
+    ]
+  },
+  {
+    "name": "Politician",
+    "parentA": "Bureaucrat",
+    "parentB": "General",
+    "category": "Administration",
+    "buildings": [
+      "Utopia HQ"
+    ]
+  },
+  {
+    "name": "Civil Servant",
+    "parentA": "Bureaucrat",
+    "parentB": "Secretary",
+    "category": "Administration",
+    "buildings": [
+      "Utopia HQ",
+      "Port Authority"
+    ]
+  },
+  {
+    "name": "Officer",
+    "parentA": "Assistant",
+    "parentB": "Civil Servant",
+    "category": "Administration",
+    "buildings": [
+      "Utopia HQ",
+      "Embassy"
+    ]
+  },
+  {
+    "name": "Insurance Agent",
+    "parentA": "Bureaucrat",
+    "parentB": "Salesman",
+    "category": "Business",
+    "buildings": [
+      "Clinic",
+      "Hospital"
+    ]
+  },
+  {
+    "name": "Federal Agent",
+    "parentA": "Secret Agent",
+    "parentB": "Politician",
+    "category": "Law",
+    "buildings": [
+      "Forensic Lab"
+    ]
+  },
+  {
+    "name": "Conductor",
+    "parentA": "Musician",
+    "parentB": "Sheriff",
+    "category": "Music",
+    "buildings": [
+      "Concert Hall"
+    ]
+  },
+  {
+    "name": "Drummer",
+    "parentA": "Musician",
+    "parentB": "Watchmaker",
+    "category": "Music",
+    "buildings": [
+      "Bar"
+    ]
+  },
+  {
+    "name": "Bassist",
+    "parentA": "Guitarist",
+    "parentB": "Deputy",
+    "category": "Music",
+    "buildings": [
+      "Bar"
+    ]
+  },
+  {
+    "name": "Guitarist",
+    "parentA": "Musician",
+    "parentB": "Songwriter",
+    "category": "Music",
+    "buildings": [
+      "Bar"
+    ]
+  },
+  {
+    "name": "Pianist",
+    "parentA": "Musician",
+    "parentB": "Programmer",
+    "category": "Music",
+    "buildings": [
+      "Concert Hall"
+    ]
+  },
+  {
+    "name": "Violinist",
+    "parentA": "Guitarist",
+    "parentB": "Bassist",
+    "category": "Music",
+    "buildings": [
+      "Concert Hall"
+    ]
+  },
+  {
+    "name": "Gamer",
+    "parentA": "Programmer",
+    "parentB": "Sports Star",
+    "category": "Sports",
+    "buildings": [
+      "Tech Park"
+    ]
+  },
+  {
+    "name": "Basketballer",
+    "parentA": "Sports Star",
+    "parentB": "Greengrocer",
+    "category": "Sports",
+    "buildings": [
+      "Recreation Center"
+    ]
+  },
+  {
+    "name": "Baseballer",
+    "parentA": "Sports Star",
+    "parentB": "Carpenter",
+    "category": "Sports",
+    "buildings": [
+      "Ballpark"
+    ]
+  },
+  {
+    "name": "Soccer Star",
+    "parentA": "Sports Star",
+    "parentB": "Actor",
+    "category": "Sports",
+    "buildings": [
+      "Recreation Center"
+    ]
+  },
+  {
+    "name": "Tennis Player",
+    "parentA": "Sports Star",
+    "parentB": "Sports Star",
+    "category": "Sports",
+    "buildings": [
+      "Recreation Center"
+    ]
+  },
+  {
+    "name": "Golfer",
+    "parentA": "Sports Star",
+    "parentB": "Bartender",
+    "category": "Sports",
+    "buildings": [
+      "Golf Club"
+    ]
+  },
+  {
+    "name": "Caddie",
+    "parentA": "Golfer",
+    "parentB": "Philosopher",
+    "category": "Sports",
+    "buildings": [
+      "Golf Club"
+    ]
+  },
+  {
+    "name": "Racecar Driver",
+    "parentA": "Sports Star",
+    "parentB": "Valet",
+    "category": "Sports",
+    "buildings": [
+      "Garage"
+    ]
+  },
+  {
+    "name": "Mascot",
+    "parentA": "Caddie",
+    "parentB": "Cheerleader",
+    "category": "Sports",
+    "buildings": [
+      "Recreation Center"
+    ]
+  },
+  {
+    "name": "Figure Skater",
+    "parentA": "Jack Frost",
+    "parentB": "Ballet Dancer",
+    "category": "Sports",
+    "buildings": [
+      "Snow Globe"
+    ]
+  },
+  {
+    "name": "Skier",
+    "parentA": "Figure Skater",
+    "parentB": "Mountain Climber",
+    "category": "Sports",
+    "buildings": [
+      "Snow Globe"
+    ]
+  },
+  {
+    "name": "Mountain Climber",
+    "parentA": "Jack Frost",
+    "parentB": "Miner",
+    "category": "Sports",
+    "buildings": [
+      "Snow Globe"
+    ]
+  },
+  {
+    "name": "Ice Fisher",
+    "parentA": "Fishmonger",
+    "parentB": "Figure Skater",
+    "category": "Production",
+    "buildings": [
+      "Snow Globe"
+    ]
+  },
+  {
+    "name": "Pizza Guy",
+    "parentA": "Foodie",
+    "parentB": "Courier",
+    "category": "Hospitality",
+    "buildings": [
+      "Fast Food"
+    ]
+  },
+  {
+    "name": "Sommelier",
+    "parentA": "Foodie",
+    "parentB": "Winemaker",
+    "category": "Hospitality",
+    "buildings": [
+      "Restaurant"
+    ]
+  },
+  {
+    "name": "Ice Cream Seller",
+    "parentA": "Foodie",
+    "parentB": "Jack Frost",
+    "category": "Hospitality",
+    "buildings": [
+      "Snow Globe",
+      "Ice Cream Stand",
+      "Diner"
+    ]
+  },
+  {
+    "name": "Celebrity Chef",
+    "parentA": "Sommelier",
+    "parentB": "Chef",
+    "category": "Hospitality",
+    "buildings": [
+      "Restaurant",
+      "Sushi Bar"
+    ]
+  },
+  {
+    "name": "Butler",
+    "parentA": "Sommelier",
+    "parentB": "Valet",
+    "category": "Hospitality",
+    "buildings": [
+      "Hero Mansion"
+    ]
+  },
+  {
+    "name": "Cosmetic Surgeon",
+    "parentA": "Socialite",
+    "parentB": "Doctor",
+    "category": "Medical",
+    "buildings": [
+      "Hospital"
+    ]
+  },
+  {
+    "name": "Cardiologist",
+    "parentA": "Cosmetic Surgeon",
+    "parentB": "Romantic",
+    "category": "Medical",
+    "buildings": [
+      "Hospital"
+    ]
+  },
+  {
+    "name": "Bouncer",
+    "parentA": "Socialite",
+    "parentB": "Bodybuilder",
+    "category": "Law",
+    "buildings": [
+      "Disco"
+    ]
+  },
+  {
+    "name": "Party Animal",
+    "parentA": "Socialite",
+    "parentB": "Animal Trainer",
+    "category": "Curious",
+    "buildings": [
+      "Disco"
+    ]
+  },
+  {
+    "name": "Gambler",
+    "parentA": "Party Animal",
+    "parentB": "Mathematician",
+    "category": "Resident",
+    "buildings": [
+      "Casino"
+    ]
+  },
+  {
+    "name": "Croupier",
+    "parentA": "Gambler",
+    "parentB": "Valet",
+    "category": "Hospitality",
+    "buildings": [
+      "Casino"
+    ]
+  },
+  {
+    "name": "Investor",
+    "parentA": "Gambler",
+    "parentB": "Industrialist",
+    "category": "Business",
+    "buildings": [
+      "Tech Park"
+    ]
+  },
+  {
+    "name": "Bodybuilder",
+    "parentA": "Strongman",
+    "parentB": "Model",
+    "category": "Sports",
+    "buildings": [
+      "Gym"
+    ]
+  },
+  {
+    "name": "Gym Instructor",
+    "parentA": "Bodybuilder",
+    "parentB": "Guru",
+    "category": "Sports",
+    "buildings": [
+      "Gym"
+    ]
+  },
+  {
+    "name": "Sumo Wrestler",
+    "parentA": "Bodybuilder",
+    "parentB": "Sushi Chef",
+    "category": "Performers",
+    "buildings": [
+      "Dojo",
+      "Arena"
+    ]
+  },
+  {
+    "name": "Samurai",
+    "parentA": "Sumo Wrestler",
+    "parentB": "Soldier",
+    "category": "Law",
+    "buildings": [
+      "Sushi Bar",
+      "Dojo"
+    ]
+  },
+  {
+    "name": "Gymnast",
+    "parentA": "Gym Instructor",
+    "parentB": "Athlete",
+    "category": "Performers",
+    "buildings": [
+      "Gym"
+    ]
+  },
+  {
+    "name": "Boxer",
+    "parentA": "Gym Instructor",
+    "parentB": "Martial Artist",
+    "category": "Sports",
+    "buildings": [
+      "Gym",
+      "Arena"
+    ]
+  },
+  {
+    "name": "Acrobat",
+    "parentA": "Gymnast",
+    "parentB": "Ringmaster",
+    "category": "Performers",
+    "buildings": [
+      "Circus",
+      "Casino"
+    ]
+  },
+  {
+    "name": "Professor",
+    "parentA": "Guru",
+    "parentB": "Scientist",
+    "category": "Academic",
+    "buildings": [
+      "University"
+    ]
+  },
+  {
+    "name": "Talkshow Host",
+    "parentA": "Guru",
+    "parentB": "Actor",
+    "category": "Media",
+    "buildings": [
+      "Broadcast Station"
+    ]
+  },
+  {
+    "name": "News Anchor",
+    "parentA": "Talkshow Host",
+    "parentB": "Reporter",
+    "category": "Media",
+    "buildings": [
+      "Broadcast Station"
+    ]
+  },
+  {
+    "name": "Entrepreneur",
+    "parentA": "Guru",
+    "parentB": "Programmer",
+    "category": "Media",
+    "buildings": [
+      "Tech Park"
+    ]
+  },
+  {
+    "name": "Travel Agent",
+    "parentA": "Tour Guide",
+    "parentB": "Pilot",
+    "category": "Business",
+    "buildings": [
+      "Travel Agency"
+    ]
+  },
+  {
+    "name": "Tour Guide",
+    "parentA": "Hitch Hiker",
+    "parentB": "Salesman",
+    "category": "Hospitality",
+    "buildings": [
+      "Travel Agency"
+    ]
+  },
+  {
+    "name": "Cyclist",
+    "parentA": "Hitch Hiker",
+    "parentB": "Courier",
+    "category": "Transport",
+    "buildings": [
+      "Gym",
+      "Recreation Center"
+    ]
+  },
+  {
+    "name": "Skateboarder",
+    "parentA": "Cyclist",
+    "parentB": "Skier",
+    "category": "Sports",
+    "buildings": [
+      "Recreation Center"
+    ]
+  },
+  {
+    "name": "Tree Hugger",
+    "parentA": "Hitch Hiker",
+    "parentB": "Guru",
+    "category": "Curious",
+    "buildings": [
+      "Flower Shop"
+    ]
+  },
+  {
+    "name": "Star Commander",
+    "parentA": "Travel Agent",
+    "parentB": "Astronaut",
+    "category": "Explorers",
+    "buildings": [
+      "Space Admin"
+    ]
+  },
+  {
+    "name": "Mounted Police",
+    "parentA": "Cyclist",
+    "parentB": "Sheriff",
+    "category": "Law",
+    "buildings": [
+      "Sheriff's Office",
+      "Campsite"
+    ]
+  },
+  {
+    "name": "Tourist",
+    "parentA": "Tour Guide",
+    "parentB": "Travel Agent",
+    "category": "Explorers",
+    "buildings": [
+      "Travel Agency"
+    ]
+  },
+  {
+    "name": "Catcher",
+    "parentA": "Baseballer",
+    "parentB": "Police Officer",
+    "category": "Sports",
+    "buildings": [
+      "Ballpark"
+    ]
+  },
+
+  {
+    "name": "Statistician",
+    "parentA": "Mathematician",
+    "parentB": "Reporter",
+    "category": "Academic",
+    "buildings": [
+      "Ballpark"
+    ]
+  },
+  {
+    "name": "Conspiracy Theorist",
+    "parentA": "Easter Bunny",
+    "parentB": "Cryptozoologist",
+    "category": "Curious",
+    "buildings": [
+      "Secret Hideout"
+    ]
+  },
+  {
+    "name": "Masseuse",
+    "parentA": "Physiotherapist",
+    "parentB": "Strongman",
+    "category": "Medical",
+    "buildings": [
+      "Spa"
+    ]
+  },
+  {
+    "name": "Chemist",
+    "parentA": "Scientist",
+    "parentB": "Bartender",
+    "category": "Academic",
+    "buildings": [
+      "Chemical Plant",
+      "Fireworks Factory"
+    ]
+  },
+  {
+    "name": "Hazmat",
+    "parentA": "Chemist",
+    "parentB": "Stunt Double",
+    "category": "Maintenance",
+    "buildings": [
+      "Chemical Plant",
+      "Space Admin"
+    ]
+  },
+  {
+    "name": "Tattoo Artist",
+    "parentA": "Calligrapher",
+    "parentB": "Punk Rocker",
+    "category": "Creative",
+    "buildings": [
+      "Gas Station"
+    ]
+  },
+  {
+    "name": "Biker",
+    "parentA": "Cyclist",
+    "parentB": "Strongman",
+    "category": "Transport",
+    "buildings": [
+      "Gas Station"
+    ]
+  },
+  {
+    "name": "Optometrist",
+    "parentA": "Astronomer",
+    "parentB": "Doctor",
+    "category": "Medical",
+    "buildings": [
+      "Clinic"
+    ]
+  },
+  {
+    "name": "Surfer",
+    "parentA": "Skateboarder",
+    "parentB": "Olympic Swimmer",
+    "category": "Sports",
+    "buildings": [
+      "Beach House"
+    ]
+  },
+
+
+  {
+    "name": "Butcher",
+    "parentA": "Cattle Rustler",
+    "parentB": "Cook",
+    "category": "Production",
+    "buildings": [
+      "Fast Food"
+    ]
+  },
+  {
+    "name": "Hockey Player",
+    "parentA": "Wrestler",
+    "parentB": "Figure Skater",
+    "category": "Sports",
+    "buildings": [
+      "Snow Globe"
+    ]
+  },
+  {
+    "name": "Sports Fan",
+    "parentA": "Athlete",
+    "parentB": "Statistician",
+    "category": "Sports",
+    "buildings": [
+      "Arena"
+    ]
+  },
+  {
+    "name": "Gas Filler",
+    "parentA": "Valet",
+    "parentB": "Janitor",
+    "category": "Services",
+    "buildings": [
+      "Gas Station"
+    ]
+  },
+  {
+    "name": "Pyrotechnician",
+    "parentA": "Wizard",
+    "parentB": "Chemist",
+    "category": "Technical",
+    "buildings": [
+      "Carnival",
+      "Fireworks Factory"
+    ]
+  },
+  {
+    "name": "Car Washer",
+    "parentA": "Janitor",
+    "parentB": "Model",
+    "category": "Services",
+    "buildings": [
+      "Gas Station",
+      "Garage"
+    ]
+  },
+  {
+    "name": "Hair Stylist",
+    "parentA": "Model",
+    "parentB": "Gardener",
+    "category": "Services",
+    "buildings": [
+      "Gas Station",
+      "Barber Shop"
+    ]
+  },
+  {
+    "name": "Unknown9",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Unknown10",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Unknown11",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Sea Dog",
+    "parentA": "Captain",
+    "parentB": "Buccaneer",
+    "category": "Explorers",
+    "buildings": [
+      "Docks"
+    ]
+  },
+  {
+    "name": "Sailor",
+    "parentA": "Sea Dog",
+    "parentB": "First Mate",
+    "category": "Explorers",
+    "buildings": [
+      "Docks",
+      "Port Authority"
+    ]
+  },
+  {
+    "name": "Dock Hand",
+    "parentA": "Sailor",
+    "parentB": "Strongman",
+    "category": "Production",
+    "buildings": [
+      "Docks"
+    ]
+  },
+  {
+    "name": "Boat Racer",
+    "parentA": "Racecar Driver",
+    "parentB": "Sailor",
+    "category": "Sports",
+    "buildings": [
+      "Marina"
+    ]
+  },
+  {
+    "name": "Sailing Instructor",
+    "parentA": "Sailor",
+    "parentB": "Coach",
+    "category": "Sports",
+    "buildings": [
+      "Swimming Pool",
+      "Marina"
+    ]
+  },
+  {
+    "name": "Lighthouse Keeper",
+    "parentA": "Astronomer",
+    "parentB": "Electrician",
+    "category": "Resident",
+    "buildings": [
+      "Lighthouse"
+    ]
+  },
+  {
+    "name": "Cartographer",
+    "parentA": "Calligrapher",
+    "parentB": "Explorer",
+    "category": "Research",
+    "buildings": [
+      "Lighthouse"
+    ]
+  },
+  {
+    "name": "Castaway",
+    "parentA": "Explorer",
+    "parentB": "Sailor",
+    "category": "Curious",
+    "buildings": [
+      "Island"
+    ]
+  },
+  {
+    "name": "Tribal",
+    "parentA": "Farmer",
+    "parentB": "Fishmonger",
+    "category": "Curious",
+    "buildings": [
+      "Island"
+    ]
+  },
+  {
+    "name": "Treasure Hunter",
+    "parentA": "Jeweller",
+    "parentB": "Buccaneer",
+    "category": "Explorers",
+    "buildings": [
+      "Island",
+      "Cave"
+    ]
+  },
+
+
+
+  {
+    "name": "Mermaid",
+    "parentA": "Lifeguard",
+    "parentB": "Mutant",
+    "category": "Curious",
+    "buildings": [
+      "Lighthouse"
+    ]
+  },
+  {
+    "name": "Unknown13",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Emperor",
+    "parentA": "Mayor",
+    "parentB": "Historian",
+    "category": "Law",
+    "buildings": [
+      "Antique Store"
+    ]
+  },
+  {
+    "name": "Unknown15",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Unknown16",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Unknown17",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Unknown18",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+  {
+    "name": "Unknown19",
+    "category": "Curious",
+    "placeholder": true,
+    "buildings": []
+  },
+
+  {
+    "name": "Electrician",
+    "parentA": "Mechanic",
+    "parentB": "Assistant",
+    "category": "Technical",
+    "buildings": [
+      "Telephone Company"
+    ]
+  },
+  {
+    "name": "Telephone Operator",
+    "parentA": "Receptionist",
+    "parentB": "Electrician",
+    "category": "Technical",
+    "buildings": [
+      "Telephone Company"
+    ]
+  },
+  {
+    "name": "Cashier",
+    "parentA": "Salesman",
+    "parentB": "Assistant",
+    "category": "Business",
+    "buildings": [
+      "Gas Station",
+      "Pharmacy",
+      "Pet Store"
+    ]
+  },
+  {
+    "name": "Bee Keeper",
+    "parentA": "Farmer",
+    "parentB": "Entomologist",
+    "category": "Production",
+    "buildings": [
+      "Apiary"
+    ]
+  },
+  {
+    "name": "Entomologist",
+    "parentA": "Programmer",
+    "parentB": "Scientist",
+    "category": "Research",
+    "buildings": [
+      "University",
+      "Apiary"
+    ]
+  },
+  {
+    "name": "Bell Ringer",
+    "parentA": "Watchmaker",
+    "parentB": "Strongman",
+    "category": "Services",
+    "buildings": [
+      "Doomsday Clock"
+    ]
+  },
+  {
+    "name": "Security Guard",
+    "parentA": "Police Officer",
+    "parentB": "Assistant",
+    "category": "Law",
+    "buildings": [
+      "Telephone Company",
+      "Space Port",
+      "Film Studio"
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "parentA": "Matador",
+    "parentB": "Mutant",
+    "category": "Curious",
+    "buildings": [
+      "Altar"
+    ]
+  },
+  {
+    "name": "Tooth Fairy",
+    "parentA": "Dentist",
+    "parentB": "Bee Keeper",
+    "category": "Curious",
+    "buildings": [
+      "Dentist's Office"
+    ]
+  },
+  {
+    "name": "Eagle Scout",
+    "parentA": "Park Ranger",
+    "parentB": "Explorer",
+    "category": "Curious",
+    "buildings": [
+      "Campsite"
+    ]
+  },
+  {
+    "name": "Camp Counsellor",
+    "parentA": "Eagle Scout",
+    "parentB": "Homemaker",
+    "category": "Administration",
+    "buildings": [
+      "Campsite"
+    ]
+  },
+  {
+    "name": "Outlaw",
+    "parentA": "Lumberjack",
+    "parentB": "Ninja",
+    "category": "Curious",
+    "buildings": [
+      "Lumber Mill"
+    ]
+  },
+  {
+    "name": "Caveman",
+    "parentA": "Strongman",
+    "parentB": "Tribal",
+    "category": "Curious",
+    "buildings": [
+      "Cave"
+    ]
+  },
+  {
+    "name": "Crashtest Dummy",
+    "parentA": "Stunt Double",
+    "parentB": "Valet",
+    "category": "Transport",
+    "buildings": [
+      "Garage"
+    ]
+  },
+  {
+    "name": "Oil Driller",
+    "parentA": "Construction Worker",
+    "parentB": "Deep Sea Diver",
+    "category": "Production",
+    "buildings": [
+      "Oil Rig"
+    ]
+  },
+  {
+    "name": "Vigilante",
+    "parentA": "Detective",
+    "parentB": "Martial Artist",
+    "category": "Curious",
+    "buildings": [
+      "Cave"
+    ]
+  },
+  {
+    "name": "Rock Climber",
+    "parentA": "Mountain Climber",
+    "parentB": "Stunt Double",
+    "category": "Sports",
+    "buildings": [
+      "Cave"
+    ]
+  },
+  {
+    "name": "Welder",
+    "parentA": "Pyrotechnician",
+    "parentB": "Mechanic",
+    "category": "Technical",
+    "buildings": [
+      "Space Admin",
+      "Oil Rig"
+    ]
+  },
+  {
+    "name": "Oil Baron",
+    "parentA": "Oil Driller",
+    "parentB": "Investor",
+    "category": "Business",
+    "buildings": [
+      "Oil Rig"
+    ]
+  },
+  {
+    "name": "Barber",
+    "parentA": "Hair Stylist",
+    "parentB": "Apprentice",
+    "category": "Services",
+    "buildings": [
+      "Barber Shop"
+    ]
+  },
+  {
+    "name": "Acapella Singer",
+    "parentA": "Vocalist",
+    "parentB": "Bassist",
+    "category": "Music",
+    "buildings": [
+      "Barber Shop"
+    ]
+  },
+  {
+    "name": "Merchant",
+    "parentA": "Salesman",
+    "parentB": "Sailor",
+    "category": "Business",
+    "buildings": [
+      "Port Authority"
+    ]
+  },
+  {
+    "name": "Ambassador",
+    "parentA": "Mayor",
+    "parentB": "Salesman",
+    "category": "Curious",
+    "buildings": [
+      "Embassy"
+    ]
+  },
+  {
+    "name": "Vampire",
+    "parentA": "Abomination",
+    "parentB": "Cardiologist",
+    "category": "Evil",
+    "buildings": [
+      "Dark Tower"
+    ]
+  },
+  {
+    "name": "Monster",
+    "parentA": "Mad Scientist",
+    "parentB": "Henchman",
+    "category": "Evil",
+    "buildings": [
+      "Laboratory"
+    ]
+  },
+  {
+    "name": "Werewolf",
+    "parentA": "Abomination",
+    "parentB": "Mutant",
+    "category": "Evil",
+    "buildings": [
+      "Dark Tower"
+    ]
+  },
+  {
+    "name": "Mummy",
+    "parentA": "Archaeologist",
+    "parentB": "Vampire",
+    "category": "Evil",
+    "buildings": [
+      "Pyramid"
+    ]
+  },
+  {
+    "name": "Mad Scientist",
+    "parentA": "Scientist",
+    "parentB": "Abomination",
+    "category": "Evil",
+    "buildings": [
+      "Laboratory"
+    ]
+  },
+  {
+    "name": "Henchman",
+    "parentA": "Mad Scientist",
+    "parentB": "Bell Ringer",
+    "category": "Evil",
+    "buildings": [
+      "Laboratory"
+    ]
+  },
+  {
+    "name": "Supervillain",
+    "parentA": "Mad Scientist",
+    "parentB": "Super Hero",
+    "category": "Evil",
+    "buildings": [
+      "Evil Lair"
+    ]
+  },
+  {
+    "name": "Thief",
+    "parentA": "Henchman",
+    "parentB": "Henchman",
+    "category": "Evil",
+    "buildings": [
+      "Evil Lair"
+    ]
+  },
+  {
+    "name": "Assassin",
+    "parentA": "Ninja",
+    "parentB": "Thief",
+    "category": "Evil",
+    "buildings": [
+      "Evil Lair"
+    ]
+  },
+  {
+    "name": "Bandit",
+    "parentA": "Cattle Rustler",
+    "parentB": "Assassin",
+    "category": "Evil",
+    "buildings": [
+      "Stable"
+    ]
+  },
+  {
+    "name": "Arsonist",
+    "parentA": "Pyrotechnician",
+    "parentB": "Thief",
+    "category": "Evil",
+    "buildings": [
+      "Campsite"
+    ]
+  },
+  {
+    "name": "CEO",
+    "parentA": "Industrialist",
+    "parentB": "Supervillain",
+    "category": "Evil",
+    "buildings": [
+      "Golf Club"
+    ]
+  },
+  {
+    "name": "Ghost",
+    "parentA": "Grave Digger",
+    "parentB": "Mummy",
+    "category": "Evil",
+    "buildings": [
+      "Haunted House"
+    ]
+  },
+  {
+    "name": "Skeleton",
+    "parentA": "Radiologist",
+    "parentB": "Ghost",
+    "category": "Evil",
+    "buildings": [
+      "Haunted House"
+    ]
+  },
+  {
+    "name": "Witch",
+    "parentA": "Chemist",
+    "parentB": "Abomination",
+    "category": "Evil",
+    "buildings": [
+      "Dark Tower"
+    ]
+  },
+  {
+    "name": "Troll",
+    "parentA": "Programmer",
+    "parentB": "Witch",
+    "category": "Evil",
+    "buildings": [
+      "Cave"
+    ]
+  },
+  {
+    "name": "Jack-O-Lantern",
+    "parentA": "Greengrocer",
+    "parentB": "Abomination",
+    "category": "Evil",
+    "buildings": [
+      "Haunted House"
+    ]
+  },
+  {
+    "name": "Bogeyman",
+    "parentA": "Monster",
+    "parentB": "Conspiracy Theorist",
+    "category": "Evil",
+    "buildings": [
+      "Evil Lair"
+    ]
+  },
+  {
+    "name": "Slasher",
+    "parentA": "Samurai",
+    "parentB": "Assassin",
+    "category": "Evil",
+    "buildings": [
+      "Evil Lair"
+    ]
+  },
+  {
+    "name": "Overlord",
+    "parentA": "Supervillain",
+    "parentB": "Politician",
+    "category": "Evil",
+    "buildings": [
+      "Evil Lair"
+    ]
+  },
+  {
+    "name": "Monster Hunter",
+    "parentA": "Monster",
+    "parentB": "Lumberjack",
+    "category": "Evil",
+    "buildings": [
+      "Secret Hideout"
+    ]
+  },
+  {
+    "name": "Exterminator",
+    "parentA": "Monster Hunter",
+    "parentB": "Entomologist",
+    "category": "Evil",
+    "buildings": [
+      "Apiary"
+    ]
+  },
+  {
+    "name": "Cyclops",
+    "parentA": "Optometrist",
+    "parentB": "Monster",
+    "category": "Evil",
+    "buildings": [
+      "Altar"
+    ]
+  },
+  {
+    "name": "Ice Lord",
+    "parentA": "Guardian",
+    "parentB": "General",
+    "category": "Administration",
+    "buildings": [
+      "Winter Fort"
+    ]
+  },
+  {
+    "name": "Guardian",
+    "parentA": "Toy Soldier",
+    "parentB": "Security Guard",
+    "category": "Law",
+    "buildings": [
+      "Winter Fort"
+    ]
+  },
+  {
+    "name": "Snow Elemental",
+    "parentA": "Ice Lord",
+    "parentB": "Mutant",
+    "category": "Curious",
+    "buildings": [
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Sherpa",
+    "parentA": "Snow Elemental",
+    "parentB": "Mountain Climber",
+    "category": "Explorers",
+    "buildings": [
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Alpine Rescue",
+    "parentA": "Sherpa",
+    "parentB": "Paramedic",
+    "category": "Medical",
+    "buildings": [
+      "Mountain"
+    ]
+  },
+  {
+    "name": "Snowboarder",
+    "parentA": "Sports Star",
+    "parentB": "Sherpa",
+    "category": "Sports",
+    "buildings": [
+      "Ski Lodge"
+    ]
+  },
+  {
+    "name": "Toy Maker",
+    "parentA": "Holiday Spirit",
+    "parentB": "Carpenter",
+    "category": "Production",
+    "buildings": [
+      "Toy Factory"
+    ]
+  },
+  {
+    "name": "Elf",
+    "parentA": "Toy Maker",
+    "parentB": "Apprentice",
+    "category": "Production",
+    "buildings": [
+      "Toy Factory"
+    ]
+  },
+  {
+    "name": "Toy Soldier",
+    "parentA": "Toy Maker",
+    "parentB": "Soldier",
+    "category": "Law",
+    "buildings": [
+      "Toy Factory"
+    ]
+  },
+  {
+    "name": "Viking",
+    "parentA": "Strongman",
+    "parentB": "Snow Elemental",
+    "category": "Curious",
+    "buildings": [
+      "Winter Fort"
+    ]
+  },
+  {
+    "name": "Event Planner",
+    "parentA": "Party Animal",
+    "parentB": "Wedding Planner",
+    "category": "Administration",
+    "buildings": [
+      "Event Center"
+    ]
+  },
+  {
+    "name": "Regent",
+    "parentA": "Fairy Godmother",
+    "parentB": "Politician",
+    "category": "Enchanted",
+    "buildings": [
+      "Cloud Castle"
+    ]
+  },
+  {
+    "name": "Successor",
+    "parentA": "Regent",
+    "parentB": "Apprentice",
+    "category": "Enchanted",
+    "buildings": [
+      "Cloud Castle"
+    ]
+  },
+  {
+    "name": "Big Bad Wolf",
+    "parentA": "Werewolf",
+    "parentB": "Fairy Godmother",
+    "category": "Enchanted",
+    "buildings": [
+      "Cabin In The Woods"
+    ]
+  },
+  {
+    "name": "Puppet",
+    "parentA": "Toy Soldier",
+    "parentB": "Fairy Godmother",
+    "category": "Enchanted",
+    "buildings": [
+      "Candy House"
+    ]
+  },
+  {
+    "name": "Jungle Dweller",
+    "parentA": "Caveman",
+    "parentB": "Fairy Godmother",
+    "category": "Enchanted",
+    "buildings": [
+      "Cabin In The Woods"
+    ]
+  },
+  {
+    "name": "Swashbuckler",
+    "parentA": "Buccaneer",
+    "parentB": "Regent",
+    "category": "Enchanted",
+    "buildings": [
+      "Pirate Ship"
+    ]
+  },
+  {
+    "name": "Hooded Rider",
+    "parentA": "Eagle Scout",
+    "parentB": "Big Bad Wolf",
+    "category": "Enchanted",
+    "buildings": [
+      "Cabin In The Woods"
+    ]
+  },
+  {
+    "name": "Piper",
+    "parentA": "Exterminator",
+    "parentB": "Fairy Godmother",
+    "category": "Enchanted",
+    "buildings": [
+      "Pirate Ship"
+    ]
+  },
+  {
+    "name": "Knight",
+    "parentA": "Crusader",
+    "parentB": "Successor",
+    "category": "Enchanted",
+    "buildings": [
+      "Ivory Tower"
+    ]
+  },
+  {
+    "name": "Adventurer",
+    "parentA": "Explorer",
+    "parentB": "Hooded Rider",
+    "category": "Explorers",
+    "buildings": [
+      "Pirate Ship",
+      "Ivory Tower"
+    ]
+  },
+  {
+    "name": "Sculptor",
+    "parentA": "Artist",
+    "parentB": "Knight",
+    "category": "Creative",
+    "buildings": [
+      "Warrior Temple"
+    ]
+  },
+  {
+    "name": "Bean Farmer",
+    "parentA": "Farmer",
+    "parentB": "Fairy Godmother",
+    "category": "Production",
+    "buildings": [
+      "Cloud Castle"
+    ]
+  },
+  {
+    "name": "Giant",
+    "parentA": "Bean Farmer",
+    "parentB": "Cyclops",
+    "category": "Enchanted",
+    "buildings": [
+      "Cloud Castle"
+    ]
+  },
+  {
+    "name": "Wonderlander",
+    "parentA": "Adventurer",
+    "parentB": "Dreamer",
+    "category": "Enchanted",
+    "buildings": [
+      "Candy House"
+    ]
+  },
+  {
+    "name": "Gingerbread Clone",
+    "parentA": "Baker",
+    "parentB": "Puppet",
+    "category": "Enchanted",
+    "buildings": [
+      "Candy House"
+    ]
+  },
+  {
+    "name": "Submariner",
+    "parentA": "Adventurer",
+    "parentB": "Deep Sea Diver",
+    "category": "Explorers",
+    "buildings": [
+      "Pirate Ship"
+    ]
+  },
+  {
+    "name": "Gladiator",
+    "parentA": "Knight",
+    "parentB": "Wrestler",
+    "category": "Enchanted",
+    "buildings": [
+      "Warrior Temple"
+    ]
+  },
+  {
+    "name": "Sun Priest",
+    "parentA": "Preacher",
+    "parentB": "Hermit",
+    "category": "Enchanted",
+    "buildings": [
+      "Warrior Temple"
+    ]
+  },
+  {
+    "name": "Dwarf",
+    "parentA": "Giant",
+    "parentB": "Giant",
+    "category": "Enchanted",
+    "buildings": [
+      "Cabin In The Woods"
+    ]
+  },
+  {
+    "name": "Hermit",
+    "parentA": "Mime",
+    "parentB": "Jungle Dweller",
+    "category": "Enchanted",
+    "buildings": [
+      "Warrior Temple"
+    ]
+  },
+  {
+    "name": "Hair Model",
+    "parentA": "Hair Stylist",
+    "parentB": "Successor",
+    "category": "Enchanted",
+    "buildings": [
+      "Ivory Tower"
+    ]
+  },
+  {
+    "name": "Housekeeper",
+    "parentA": "Homemaker",
+    "parentB": "Fairy Godmother",
+    "category": "Resident",
+    "buildings": [
+      "Candy House"
+    ]
+  },
+  {
+    "name": "Shoe Maker",
+    "parentA": "Sculptor",
+    "parentB": "Tailor",
+    "category": "Production",
+    "buildings": [
+      "Cabin In The Woods"
+    ]
+  },
+  {
+    "name": "Base Jumper",
+    "parentA": "Stunt Double",
+    "parentB": "Adventurer",
+    "category": "Sports",
+    "buildings": [
+      "Ivory Tower"
+    ]
+  },
+  {
+    "name": "Playwright",
+    "parentA": "Bard",
+    "parentB": "Writer",
+    "category": "Creative",
+    "buildings": [
+      "Publishing House"
+    ]
+  },
+  {
+    "name": "Perfume Maker",
+    "parentA": "Romantic",
+    "parentB": "Chemist",
+    "category": "Creative",
+    "buildings": [
+      "Souvenir Store"
+    ]
+  },
+  {
+    "name": "Bard",
+    "parentA": "Romantic",
+    "parentB": "Poet",
+    "category": "Performers",
+    "buildings": [
+      "Inn"
+    ]
+  },
+  {
+    "name": "Newlywed",
+    "parentA": "Romantic",
+    "parentB": "Romantic",
+    "category": "Enchanted",
+    "buildings": [
+      "Wedding Chapel"
+    ]
+  },
+  {
+    "name": "The Invisible Clone",
+    "parentA": "Alchemist",
+    "parentB": "Abomination",
+    "category": "Evil",
+    "buildings": [
+      "Laboratory"
+    ]
+  },
+  {
+    "name": "Alchemist",
+    "parentA": "Blacksmith",
+    "parentB": "Conspiracy Theorist",
+    "category": "Creative",
+    "buildings": [
+      "Laboratory"
+    ]
+  },
+  {
+    "name": "Blacksmith",
+    "parentA": "Crusader",
+    "parentB": "Apprentice",
+    "category": "Production",
+    "buildings": [
+      "Souvenir Store"
+    ]
+  },
+  {
+    "name": "Freedom Fighter",
+    "parentA": "Crusader",
+    "parentB": "Politician",
+    "category": "Enchanted",
+    "buildings": [
+      "Souvenir Store"
+    ]
+  },
+  {
+    "name": "Metalhead",
+    "parentA": "Blacksmith",
+    "parentB": "Musician",
+    "category": "Music",
+    "buildings": [
+      "Outdoor Stage"
+    ]
+  },
+  {
+    "name": "Juggler",
+    "parentA": "Clown",
+    "parentB": "Crusader",
+    "category": "Performers",
+    "buildings": [
+      "Outdoor Stage"
+    ]
+  },
+  {
+    "name": "Bagpiper",
+    "parentA": "Juggler",
+    "parentB": "Piper",
+    "category": "Performers",
+    "buildings": [
+      "Outdoor Stage"
+    ]
+  },
+  {
+    "name": "Train Conductor",
+    "parentA": "Engine Driver",
+    "parentB": "Bureaucrat",
+    "category": "Transport",
+    "buildings": [
+      "Rail Terminal"
+    ]
+  },
+  {
+    "name": "Fantasy Writer",
+    "parentA": "Alchemist",
+    "parentB": "Writer",
+    "category": "Creative",
+    "buildings": [
+      "Publishing House"
+    ]
+  },
+  {
+    "name": "Romance Novelist",
+    "parentA": "Fantasy Writer",
+    "parentB": "Romantic",
+    "category": "Creative",
+    "buildings": [
+      "Publishing House"
+    ]
+  },
+  {
+    "name": "Makeup Artist",
+    "parentA": "Artist",
+    "parentB": "Dating Advisor",
+    "category": "Creative",
+    "buildings": [
+      "Fashion Studio"
+    ]
+  },
+  {
+    "name": "Engine Driver",
+    "parentA": "Blacksmith",
+    "parentB": "Engineer",
+    "category": "Transport",
+    "buildings": [
+      "Rail Terminal"
+    ]
+  },
+  {
+    "name": "Soccer Fan",
+    "parentA": "Soccer Referee",
+    "parentB": "Sports Fan",
+    "category": "Sports",
+    "buildings": [
+      "Training Ground"
+    ]
+  },
+  {
+    "name": "Goal Keeper",
+    "parentA": "Soccer Fan",
+    "parentB": "Bouncer",
+    "category": "Sports",
+    "buildings": [
+      "Training Ground"
+    ]
+  },
+  {
+    "name": "Bookmaker",
+    "parentA": "Soccer Referee",
+    "parentB": "Gambler",
+    "category": "Sports",
+    "buildings": [
+      "Ticketing Booth"
+    ]
+  },
+  {
+    "name": "Steward",
+    "parentA": "Soccer Fan",
+    "parentB": "Sheriff",
+    "category": "Hospitality",
+    "buildings": [
+      "Trophy Room"
+    ]
+  },
+  {
+    "name": "Masquerader",
+    "parentA": "Parader",
+    "parentB": "Makeup Artist",
+    "category": "Performers",
+    "buildings": [
+      "Inn",
+      "Parade Float"
+    ]
+  },
+  {
+    "name": "Samba Dancer",
+    "parentA": "Street Performer",
+    "parentB": "Party Animal",
+    "category": "Performers",
+    "buildings": [
+      "Parade Float"
+    ]
+  },
+  {
+    "name": "Street Performer",
+    "parentA": "Parader",
+    "parentB": "Actor",
+    "category": "Performers",
+    "buildings": [
+      "Staging Area"
+    ]
+  },
+  {
+    "name": "Marching Band Member",
+    "parentA": "Street Performer",
+    "parentB": "Musician",
+    "category": "Performers",
+    "buildings": [
+      "Staging Area"
+    ]
+  },
+  {
+    "name": "Warrior",
+    "parentA": "Amazon",
+    "parentB": "Gladiator",
+    "category": "Enchanted",
+    "buildings": [
+      "Warrior Temple"
+    ]
+  },
+  {
+    "name": "Online Shopper",
+    "parentA": "Amazon",
+    "parentB": "Amazon",
+    "category": "Curious",
+    "buildings": [
+      "Souvenir Store"
+    ]
+  },
+  {
+    "name": "Forester",
+    "parentA": "Amazon",
+    "parentB": "Park Ranger",
+    "category": "Maintenance",
+    "buildings": [
+      "Cabin In The Woods"
+    ]
+  },
+  {
+    "name": "Cliff Diver",
+    "parentA": "Amazon",
+    "parentB": "Adventurer",
+    "category": "Explorers",
+    "buildings": [
+      "Island"
+    ]
+  },
+  {
+    "name": "Yoga Instructor",
+    "parentA": "Guru",
+    "parentB": "Balloon Twister",
+    "category": "Sports",
+    "buildings": [
+      "Spa"
+    ]
+  },
+  {
+    "name": "Dog Walker",
+    "parentA": "Frisbee Player",
+    "parentB": "Animal Trainer",
+    "category": "Maintenance",
+    "buildings": [
+      "Thrift Store"
+    ]
+  },
+  {
+    "name": "Whisky Blender",
+    "parentA": "Organic Farmer",
+    "parentB": "Winemaker",
+    "category": "Hospitality",
+    "buildings": [
+      "Distillery"
+    ]
+  },
+  {
+    "name": "Frisbee Player",
+    "parentA": "Hipster",
+    "parentB": "Athlete",
+    "category": "Sports",
+    "buildings": [
+      "Thrift Store"
+    ]
+  },
+  {
+    "name": "Graffiti Artist",
+    "parentA": "Balloon Twister",
+    "parentB": "Painter",
+    "category": "Creative",
+    "buildings": [
+      "Thrift Store"
+    ]
+  },
+  {
+    "name": "Organic Farmer",
+    "parentA": "Hipster",
+    "parentB": "Farmer",
+    "category": "Production",
+    "buildings": [
+      "Organic Cafe",
+      "Distillery"
+    ]
+  },
+  {
+    "name": "Juicer",
+    "parentA": "Whisky Blender",
+    "parentB": "Organic Farmer",
+    "category": "Hospitality",
+    "buildings": [
+      "Bazaar",
+      "Organic Cafe"
+    ]
+  },
+  {
+    "name": "Balloon Twister",
+    "parentA": "Hipster",
+    "parentB": "Clown",
+    "category": "Performers",
+    "buildings": [
+      "Bazaar"
+    ]
+  },
+  {
+    "name": "Manicurist",
+    "parentA": "Graffiti Artist",
+    "parentB": "Calligrapher",
+    "category": "Hospitality",
+    "buildings": [
+      "Bazaar",
+      "Fashion Studio"
+    ]
+  },
+  {
+    "name": "Indie Musician",
+    "parentA": "Whisky Blender",
+    "parentB": "Guitarist",
+    "category": "Music",
+    "buildings": [
+      "Cafe",
+      "Thrift Store"
+    ]
+  },
+  {
+    "name": "Auctioneer",
+    "parentA": "Role Player",
+    "parentB": "Salesman",
+    "category": "Business",
+    "buildings": [
+      "Auction House"
+    ]
+  },
+  {
+    "name": "Barbarian",
+    "parentA": "Role Player",
+    "parentB": "Warrior",
+    "category": "Enchanted",
+    "buildings": [
+      "Auction House"
+    ]
+  },
+  {
+    "name": "Monk",
+    "parentA": "Barbarian",
+    "parentB": "Martial Artist",
+    "category": "Enchanted",
+    "buildings": [
+      "Guild Hall",
+      "Auction House"
+    ]
+  },
+  {
+    "name": "Cleric",
+    "parentA": "Role Player",
+    "parentB": "Doctor",
+    "category": "Enchanted",
+    "buildings": [
+      "Guild Hall"
+    ]
+  },
+  {
+    "name": "Paladin",
+    "parentA": "Cleric",
+    "parentB": "Knight",
+    "category": "Enchanted",
+    "buildings": [
+      "Auction House"
+    ]
+  },
+  {
+    "name": "Dragon Tamer",
+    "parentA": "Monk",
+    "parentB": "Cryptozoologist",
+    "category": "Enchanted",
+    "buildings": [
+      "Guild Hall"
+    ]
+  },
+  {
+    "name": "Rogue",
+    "parentA": "Role Player",
+    "parentB": "Ninja",
+    "category": "Evil",
+    "buildings": [
+      "Ninja HQ",
+      "Guild Hall"
+    ]
+  },
+  {
+    "name": "Necromancer",
+    "parentA": "Cleric",
+    "parentB": "Coroner",
+    "category": "Evil",
+    "buildings": [
+      "Guild Hall"
+    ]
+  }
+]

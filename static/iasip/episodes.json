@@ -1,0 +1,1213 @@
+{
+  "episodes": [
+    {
+      "id": "S01E01",
+      "title": "The Gang Gets Racist",
+      "context": {
+        "day": "R",
+        "time": "00:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S01E02",
+      "title": "Charlie Wants an Abortion",
+      "context": {
+        "day": "T",
+        "time": "11:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S01E03",
+      "title": "Underage Drinking: A National Concern",
+      "context": {
+        "day": "F",
+        "time": "21:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S01E04",
+      "title": "Charlie Has Cancer",
+      "context": {
+        "day": "T",
+        "time": "12:40",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S01E05",
+      "title": "Gun Fever",
+      "context": {
+        "day": "F",
+        "time": "11:25",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S01E06",
+      "title": "The Gang Finds a Dead Guy",
+      "context": {
+        "day": "F",
+        "time": "10:25",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S01E07",
+      "title": "Charlie Got Molested",
+      "context": {
+        "day": "M",
+        "time": "11:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E01",
+      "title": "Charlie Gets Crippled",
+      "context": {
+        "day": "M",
+        "time": "22:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E02",
+      "title": "The Gang Goes Jihad",
+      "context": {
+        "day": "M",
+        "time": "15:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E03",
+      "title": "Dennis and Dee Go on Welfare",
+      "context": {
+        "day": "W",
+        "time": "16:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E04",
+      "title": "Mac Bangs Dennis' Mom",
+      "context": {
+        "day": "F",
+        "time": "16:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E05",
+      "title": "Hundred Dollar Baby",
+      "context": {
+        "day": "T",
+        "time": "23:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E06",
+      "title": "The Gang Gives Back",
+      "context": {
+        "day": "M",
+        "time": "11:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E07",
+      "title": "The Gang Exploits a Miracle",
+      "context": {
+        "day": "T",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E08",
+      "title": "The Gang Runs for Office",
+      "context": {
+        "day": "W",
+        "time": "10:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E09",
+      "title": "Charlie Goes America All Over Everybody's Ass",
+      "context": {
+        "day": "SA",
+        "time": "02:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S02E10",
+      "title": "Dennis and Dee Get a New Dad",
+      "context": {
+        "day": "M",
+        "time": "08:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E01",
+      "title": "The Gang Finds a Dumpster Baby",
+      "context": {
+        "day": "W",
+        "time": "16:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E02",
+      "title": "The Gang Gets Invincible",
+      "context": {
+        "day": "W",
+        "time": "10:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E03",
+      "title": "Dennis and Dee's Mom Is Dead",
+      "context": {
+        "day": "M",
+        "time": "12:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E04",
+      "title": "The Gang Gets Held Hostage",
+      "context": {
+        "day": "W",
+        "time": "13:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E05",
+      "title": "The Aluminum Monster vs. Fatty Magoo",
+      "context": {
+        "day": "T",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E06",
+      "title": "The Gang Solves the North Korea Situation",
+      "context": {
+        "day": "M",
+        "time": "16:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E07",
+      "title": "The Gang Sells Out",
+      "context": {
+        "day": "T",
+        "time": "14:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E08",
+      "title": "Frank Sets Sweet Dee on Fire",
+      "context": {
+        "day": "W",
+        "time": "18:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E09",
+      "title": "Sweet Dee's Dating a Retarded Person",
+      "context": {
+        "day": "W",
+        "time": "22:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E10",
+      "title": "Mac is a Serial Killer",
+      "context": {
+        "day": "R",
+        "time": "10:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E11",
+      "title": "Dennis Looks Like a Registered Sex Offender",
+      "context": {
+        "day": "T",
+        "time": "15:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E12",
+      "title": "The Gang Gets Whacked (Part 1)",
+      "context": {
+        "day": "M",
+        "time": "14:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E13",
+      "title": "The Gang Gets Whacked (Part 2)",
+      "context": {
+        "day": "U",
+        "time": "00:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E14",
+      "title": "Bums: Making a Mess All Over the City",
+      "context": {
+        "day": "M",
+        "time": "10:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S03E15",
+      "title": "The Gang Dances Their Asses Off",
+      "context": {
+        "day": "SA",
+        "time": "13:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E01",
+      "title": "Mac and Dennis: Manhunters",
+      "context": {
+        "day": "W",
+        "time": "13:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E02",
+      "title": "The Gang Solves the Gas Crisis",
+      "context": {
+        "day": "M",
+        "time": "10:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E03",
+      "title": "America's Next Top Paddy's Billboard Model Contest",
+      "context": {
+        "day": "M",
+        "time": "09:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E04",
+      "title": "Mac's Banging the Waitress",
+      "context": {
+        "day": "W",
+        "time": "14:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E05",
+      "title": "Mac and Charlie Die (Part 1)",
+      "context": {
+        "day": "M",
+        "time": "10:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E06",
+      "title": "Mac and Charlie Die (Part 2)",
+      "context": {
+        "day": "U",
+        "time": "00:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E07",
+      "title": "Who Pooped the Bed?",
+      "context": {
+        "day": "W",
+        "time": "13:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E08",
+      "title": "Paddy's Pub: The Worst Bar in Philadelphia",
+      "context": {
+        "day": "T",
+        "time": "16:42",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E09",
+      "title": "Dennis Reynolds: An Erotic Life",
+      "context": {
+        "day": "M",
+        "time": "23:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E10",
+      "title": "Sweet Dee Has a Heart Attack",
+      "context": {
+        "day": "M",
+        "time": "19:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E11",
+      "title": "The Gang Cracks the Liberty Bell",
+      "context": {
+        "day": "R",
+        "time": "14:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E12",
+      "title": "The Gang Gets Extreme: Home Makeover Edition",
+      "context": {
+        "day": "F",
+        "time": "15:27",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S04E13",
+      "title": "The Nightman Cometh",
+      "context": {
+        "day": "F",
+        "time": "19:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E01",
+      "title": "The Gang Exploits the Mortgage Crisis",
+      "context": {
+        "day": "T",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E02",
+      "title": "The Gang Hits the Road",
+      "context": {
+        "day": "T",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E03",
+      "title": "The Great Recession",
+      "context": {
+        "day": "T",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E04",
+      "title": "The Gang Gives Frank an Intervention",
+      "context": {
+        "day": "W",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E05",
+      "title": "The Waitress Is Getting Married",
+      "context": {
+        "day": "SA",
+        "time": "12:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E06",
+      "title": "The World Series Defense",
+      "context": {
+        "day": "T",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E07",
+      "title": "The Gang Wrestles for the Troops",
+      "context": {
+        "day": "SA",
+        "time": "12:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E08",
+      "title": "Paddy's Pub: Home of the Original Kitten Mittens",
+      "context": {
+        "day": "W",
+        "time": "12:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E09",
+      "title": "Mac and Dennis Break Up",
+      "context": {
+        "day": "F",
+        "time": "12:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E10",
+      "title": "The D.E.N.N.I.S. System",
+      "context": {
+        "day": "SA",
+        "time": "13:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E11",
+      "title": "Mac and Charlie Write a Movie",
+      "context": {
+        "day": "R",
+        "time": "13:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S05E12",
+      "title": "The Gang Reignites the Rivalry",
+      "context": {
+        "day": "T",
+        "time": "08:17",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E01",
+      "title": "Mac Fights Gay Marriage",
+      "context": {
+        "day": "R",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E02",
+      "title": "Dennis Gets Divorced",
+      "context": {
+        "day": "M",
+        "time": "07:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E03",
+      "title": "The Gang Buys a Boat",
+      "context": {
+        "day": "SA",
+        "time": "10:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E04",
+      "title": "Mac's Big Break",
+      "context": {
+        "day": "R",
+        "time": "09:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E05",
+      "title": "Mac and Charlie: White Trash",
+      "context": {
+        "day": "SA",
+        "time": "12:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E06",
+      "title": "Mac's Mom Burns Her House Down",
+      "context": {
+        "day": "R",
+        "time": "12:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E07",
+      "title": "Who Got Dee Pregnant?",
+      "context": {
+        "day": "SA",
+        "time": "17:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E08",
+      "title": "The Gang Gets a New Member",
+      "context": {
+        "day": "M",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E09",
+      "title": "Dee Reynolds: Shaping America's Youth",
+      "context": {
+        "day": "M",
+        "time": "08:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E10",
+      "title": "Charlie Kelly: King of the Rats",
+      "context": {
+        "day": "T",
+        "time": "10:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E11",
+      "title": "The Gang Gets Stranded in the Woods",
+      "context": {
+        "day": "SA",
+        "time": "15:30",
+        "place": "Somewhere in Jersey"
+      }
+    },
+    {
+      "id": "S06E12",
+      "title": "Dee Gives Birth",
+      "context": {
+        "day": "F",
+        "time": "09:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E13",
+      "title": "A Very Sunny Christmas",
+      "context": {
+        "comment": "On Christmas Eve",
+        "day": "U",
+        "time": "09:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S06E14",
+      "title": "A Very Sunny Christmas",
+      "context": {
+        "day": "U",
+        "time": "00:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E01",
+      "title": "Frank's Pretty Woman",
+      "context": {
+        "day": "M",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E02",
+      "title": "The Gang Goes to the Jersey Shore",
+      "context": {
+        "day": "F",
+        "time": "10:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E03",
+      "title": "Frank Reynolds’ Little Beauties",
+      "context": {
+        "day": "SA",
+        "time": "12:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E04",
+      "title": "Sweet Dee Gets Audited",
+      "context": {
+        "day": "R",
+        "time": "11:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E05",
+      "title": "Frank's Brother",
+      "context": {
+        "day": "W",
+        "time": "15:50",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E06",
+      "title": "The Storm of the Century",
+      "context": {
+        "day": "F",
+        "time": "11:40",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E07",
+      "title": "Chardee MacDennis: The Game of Games",
+      "context": {
+        "day": "M",
+        "time": "12:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E08",
+      "title": "The ANTI-Social Network",
+      "context": {
+        "day": "SA",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E09",
+      "title": "The Gang Gets Trapped",
+      "context": {
+        "day": "T",
+        "time": "13:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E10",
+      "title": "How Mac Got Fat",
+      "context": {
+        "day": "SU",
+        "time": "12:20",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E11",
+      "title": "Thunder Gun Express",
+      "context": {
+        "day": "W",
+        "time": "14:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E12",
+      "title": "The High School Reunion",
+      "context": {
+        "day": "F",
+        "time": "19:10",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S07E13",
+      "title": "The High School Reunion Part 2: The Gang's Revenge",
+      "context": {
+        "day": "U",
+        "time": "00:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E01",
+      "title": "Pop-Pop: The Final Solution",
+      "context": {
+        "day": "T",
+        "time": "10:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E02",
+      "title": "The Gang Recycles Their Trash",
+      "context": {
+        "day": "M",
+        "time": "11:40",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E03",
+      "title": "The Maureen Ponderosa Wedding Massacre",
+      "context": {
+        "info": "Friday the 13th",
+        "day": "F",
+        "time": "22:00",
+        "place": "Somewhere Outside of Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E04",
+      "title": "Charlie and Dee Find Love",
+      "context": {
+        "day": "F",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E05",
+      "title": "The Gang Gets Analyzed",
+      "context": {
+        "day": "R",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E06",
+      "title": "Charlie's Mom Has Cancer",
+      "context": {
+        "day": "SA",
+        "time": "11:20",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E07",
+      "title": "Frank's Back in Business",
+      "context": {
+        "day": "F",
+        "time": "11:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E08",
+      "title": "Charlie Rules the World",
+      "context": {
+        "day": "T",
+        "time": "10:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E09",
+      "title": "The Gang Dines Out",
+      "context": {
+        "day": "SA",
+        "time": "20:17",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S08E10",
+      "title": "Reynolds vs. Reynolds: The Cereal Defense",
+      "context": {
+        "day": "F",
+        "time": "10:19",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E01",
+      "title": "The Gang Broke Dee",
+      "context": {
+        "day": "W",
+        "time": "12:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E02",
+      "title": "Gun Fever Too: Still Hot",
+      "context": {
+        "day": "T",
+        "time": "09:35",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E03",
+      "title": "The Gang Tries Desperately to Win an Award",
+      "context": {
+        "day": "F",
+        "time": "14:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E04",
+      "title": "Mac and Dennis Buy a Timeshare",
+      "context": {
+        "day": "R",
+        "time": "11:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E05",
+      "title": "Mac Day",
+      "context": {
+        "day": "SA",
+        "time": "11:55",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E06",
+      "title": "The Gang Saves the Day",
+      "context": {
+        "day": "W",
+        "time": "12:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E07",
+      "title": "The Gang Gets Quarantined",
+      "context": {
+        "day": "M",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E08",
+      "title": "Flowers for Charlie",
+      "context": {
+        "day": "W",
+        "time": "09:14",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S09E09",
+      "title": "The Gang Makes Lethal Weapon 6",
+      "context": {
+        "day": "U",
+        "time": "U",
+        "place": "U"
+      }
+    },
+    {
+      "id": "S09E10",
+      "title": "The Gang Squashes Their Beefs",
+      "context": {
+        "day": "W",
+        "time": "13:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E01",
+      "title": "The Gang Beats Boggs",
+      "context": {
+        "day": "R",
+        "time": "09:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E02",
+      "title": "The Gang Group Dates",
+      "context": {
+        "day": "T",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E03",
+      "title": "Psycho Pete Returns",
+      "context": {
+        "day": "M",
+        "time": "15:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E04",
+      "title": "Charlie Work",
+      "context": {
+        "day": "M",
+        "time": "09:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E05",
+      "title": "The Gang Spies Like U.S.",
+      "context": {
+        "day": "W",
+        "time": "10:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E06",
+      "title": "The Gang Misses the Boat",
+      "context": {
+        "day": "F",
+        "time": "15:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E07",
+      "title": "Mac Kills His Dad",
+      "context": {
+        "day": "M",
+        "time": "17:05",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E08",
+      "title": "The Gang Goes on Family Fight",
+      "context": {
+        "day": "T",
+        "time": "13:45",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E09",
+      "title": "Frank Retires",
+      "context": {
+        "day": "W",
+        "time": "10:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S10E10",
+      "title": "Ass Kickers United: Mac and Charlie Join a Cult",
+      "context": {
+        "day": "W",
+        "time": "10:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E01",
+      "title": "Chardee MacDennis 2: Electric Boogaloo",
+      "context": {
+        "day": "M",
+        "time": "10:20",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E02",
+      "title": "Frank Falls Out the Window",
+      "context": {
+        "day": "W",
+        "time": "12:10",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E03",
+      "title": "The Gang Hits the Slopes",
+      "context": {
+        "day": "F",
+        "time": "09:30",
+        "place": "Poconos, PA"
+      }
+    },
+    {
+      "id": "S11E04",
+      "title": "Dee Made a Smut Film",
+      "context": {
+        "day": "T",
+        "time": "15:12",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E05",
+      "title": "Mac & Dennis Move to the Suburbs",
+      "context": {
+        "day": "R",
+        "time": "10:30",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E06",
+      "title": "Being Frank",
+      "context": {
+        "day": "F",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E07",
+      "title": "McPoyle vs. Ponderosa: The Trial of the Century",
+      "context": {
+        "day": "F",
+        "time": "07:54",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E08",
+      "title": "Charlie Catches a Leprechaun",
+      "context": {
+        "day": "W",
+        "time": "10:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S11E09",
+      "title": "The Gang Goes to Hell",
+      "context": {
+        "day": "U",
+        "time": "U",
+        "place": "U"
+      }
+    },
+    {
+      "id": "S11E10",
+      "title": "The Gang Goes to Hell: Part Two",
+      "context": {
+        "day": "U",
+        "time": "U",
+        "place": "U"
+      }
+    },
+    {
+      "id": "S12E01",
+      "title": "The Gang Turns Black",
+      "context": {
+        "day": "F",
+        "time": "21:15",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E02",
+      "title": "The Gang Goes to a Water Park",
+      "context": {
+        "day": "SA",
+        "time": "09:58",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E03",
+      "title": "Old Lady House: A Situation Comedy",
+      "context": {
+        "day": "T",
+        "time": "12:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E04",
+      "title": "Wolf Cola: A Public Relations Nightmare",
+      "context": {
+        "day": "M",
+        "time": "10:05",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E05",
+      "title": "Making Dennis Reynolds a Murderer",
+      "context": {
+        "day": "SA",
+        "time": "12:02",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E06",
+      "title": "Hero or Hate Crime?",
+      "context": {
+        "day": "M",
+        "time": "11:41",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E07",
+      "title": "PTSDee",
+      "context": {
+        "day": "W",
+        "time": "15:25",
+        "place": "Fallujah, Iraq"
+      }
+    },
+    {
+      "id": "S12E08",
+      "title": "The Gang Tends Bar",
+      "context": {
+        "info": "On Valentine's Day",
+        "day": "T",
+        "time": "11:00",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E09",
+      "title": "A Cricket's Tale",
+      "context": {
+        "day": "SU",
+        "time": "15:10",
+        "place": "Philadelphia, PA"
+      }
+    },
+    {
+      "id": "S12E10",
+      "title": "Dennis' Double Life",
+      "context": {
+        "day": "R",
+        "time": "11:30",
+        "place": "Philadelphia, PA"
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "sandbox-website",
+  "version": "1.0.0",
+  "description": "Sandbox for rwampler",
+  "author": "rwampler",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nuxt --port 9250",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.15.4"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
+    "@nuxtjs/moment": "^1.6.1",
+    "@vue/composition-api": "^1.0.0-rc.8",
+    "animejs": "^3.2.1",
+    "axios": "^0.21.1",
+    "bulma": "^0.9.2",
+    "coffee-loader": "^1.0.1",
+    "coffeescript": "^2.5.1",
+    "echarts": "^5.1.1",
+    "es6-promise-pool": "^2.5.0",
+    "fibers": "^5.0.0",
+    "javascript-detect-element-resize": "^0.5.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "postprocessing": "^6.21.4",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "sass": "^1.32.12",
+    "sass-loader": "^10.1.1",
+    "stats.js": "^0.17.0",
+    "three": "^0.128.0",
+    "three-text2d": "^0.6.0",
+    "vue-echarts": "^6.0.0-rc.5"
+  }
+}

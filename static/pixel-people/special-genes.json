@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Dreamer",
+    "level": 0
+  },
+  {
+    "name": "Salesman",
+    "level": 0
+  },
+  {
+    "name": "Explorer",
+    "level": 0
+  },
+  {
+    "name": "Mutant",
+    "level": 0
+  },
+  {
+    "name": "Romantic",
+    "mission": "February"
+  },
+  {
+    "name": "Bureaucrat",
+    "level": 0
+  },
+  {
+    "name": "Musician",
+    "mission": "Wonderland"
+  },
+  {
+    "name": "Sports Star",
+    "mission": "Team Names"
+  },
+  {
+    "name": "Jack Frost",
+    "mission": "Ice and Fire"
+  },
+  {
+    "name": "Foodie",
+    "mission": "Gastronomy"
+  },
+  {
+    "name": "Socialite",
+    "mission": "Party Animals"
+  },
+  {
+    "name": "Strongman",
+    "mission": "Beast of Burden"
+  },
+  {
+    "name": "Guru",
+    "mission": "Obedience School"
+  },
+  {
+    "name": "Hitch Hiker",
+    "mission": "Mostly Harmless"
+  },
+  {
+    "name": "Abomination",
+    "mission": "Zombie Time"
+  },
+  {
+    "name": "Holiday Spirit",
+    "mission": "Dear Santa"
+  },
+  {
+    "name": "Fairy Godmother",
+    "mission": "Happy Ever After"
+  },
+  {
+    "name": "Crusader",
+    "mission": "Old Time's Sake"
+  },
+  {
+    "name": "Hipster",
+    "mission": "Skinny Genes"
+  },
+  {
+    "name": "Amazon",
+    "mission": "A Forest Station"
+  }
+]

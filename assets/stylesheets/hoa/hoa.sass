@@ -1,0 +1,53 @@
+@import '~assets/stylesheets/hoa/variables.sass'
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
++keyframes(spin)
+  100%
+    transform: rotate(-360deg)
+
+#loading-modal
+  background: inherit
+  height: 32rem
+  left: calc(50% - 13rem)
+  position: absolute
+  opacity: 1
+  text-align: center
+  top: calc(50% - 16rem)
+  transition: opacity 0.3s
+  width: 26rem
+
+  &:before
+    background: inherit
+    bottom: 0
+    box-shadow: 0 0 14rem 14rem rgba(22, 22, 29, .75) inset
+    content: ''
+    filter: blur(10px)
+    left: 0
+    position: absolute
+    right: 0
+    top: 0
+
+  .progress-bar
+    border: 1px solid #444
+    display: inline-block
+    height: 4rem
+    margin-top: 2rem
+    position: relative
+    width: 20rem
+
+    div
+      background-color: #666
+      position: absolute
+      left: 0
+      height: 100%
+      top: 0
+      width: 0%
